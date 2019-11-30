@@ -2,6 +2,8 @@
 
 >This project was generated with 🆖[Angular CLI](https://github.com/angular/angular-cli) version 8.3.9.
 
+>Spoiler alert this app was built using **CSS Grid** for the responsive, so some mobile browsers won't display correctly each part of the view, I worked in vain, maybe I could refactor the CSS again, until then, I recommend not to use it unless you only want to see on desktop browsers
+
 ## You know, I was bored again 👿.
 
 I made this having in mind that someone else would like to have something similar, you can use it and do whatever you want with it, why I use Angular instead of Vue... Well, Angular is kinda hard and I love challenging so here we are, the project is done "Succesfully".
@@ -9,6 +11,15 @@ I made this having in mind that someone else would like to have something simila
 > I left some comments on places where as far as I know could be improved, so is upto you to make them better, so far, I'm working on them until I got a nice way to turn them better and simple
 
 ## You can use it, improve it, edit it according your desires, will and blah, blah...
+
+### This website was made using
+- [Angular](https://angular.io/)
+- [Angular Material](https://material.angular.io/)
+- [Angular Animations](https://angular.io/guide/animations)
+- [FontAwesome Icons](https://fontawesome.com/icons?d=gallery)
+- [CSS Grid](https://caniuse.com/#feat=css-grid)
+- [SweetAlert2](https://sweetalert2.github.io/)
+  
 
 > ❗❗❗ There is a part that is hard code because is no using the github's api to be dinamyc, I'm working in a way to optimize that part, suggestion are welcome 
 
@@ -51,12 +62,12 @@ import {IUser, IRepo} from '../models/interfaces.types';
 })
 export class MyGitService {
 
-  //more code that we don't care of
+  //more code that we don't care
 
   private who = 'devrax'; //<----You have to change this username, my username and assign yours
 
   constructor(public http: HttpClient) { }
-  //After this point we don't care
+  //After this point we don't care either
 }
 ```
 
@@ -65,4 +76,3 @@ export class MyGitService {
 Well, only the data that is inside `cv-aside.component.ts` is static, even the view is automatized, so, you only have to change the data that is inside an object called **asideData**, if you are wondering why is no-type, well, **Long Live to TypeScript's Type Inference**💕
 
 Here the example and also my "Resume": https://normal-resume.herokuapp.com/
-
