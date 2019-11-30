@@ -1,0 +1,8 @@
+<h2>According by me:</h2>
+<mat-list *ngFor="let item of asideData">
+  <h3 mat-header>{{item.title}}</h3>
+  <mat-list-item *ngFor="let data of item.items">
+    <fa-icon [icon]="icon"></fa-icon>
+    <p mat-line>{{data}}</p>
+  </mat-list-item>
+</mat-list>
