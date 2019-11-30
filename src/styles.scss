@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+
+$primary: #303030;
+$secondary: #FBC02D;
+$thirtiary: #FFEB3B;
+
+html, body {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $primary;
+  color: white;
+  margin: 0;
+  font-family: 'Calistoga', cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: $secondary;
+  text-shadow: 1px 1px 1px black;
+}
+
+p{
+  text-align: justify;
+  font-size: 1.5em;
+}
+
