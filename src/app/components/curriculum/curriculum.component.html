@@ -1,0 +1,34 @@
+<div class="cv">
+
+  <img class="cv__pic bor" [src]="myInfo.avatar_url" [alt]="myInfo.name">
+
+  <div class="cv__bio bor">
+    <h1>{{myInfo.name}} ({{myInfo.login}})</h1>
+    <p>{{myInfo.bio}}</p>
+    <p *ngIf="myInfo.hireable" class="hire">
+        <a mat-button href="#" matTooltip="please...😢">🔥🔥🔥🔥You can hire me!🔥🔥🔥🔥</a>
+    </p>
+  </div>
+
+  <div class="cv__contact bor">
+    <a
+      *ngFor="let key of keywords"
+      mat-icon-button
+      [matTooltip]="setInfo(key)"
+      [href]="myInfo.html_url"
+      matTooltipPosition="after"
+    >
+      <fa-icon [icon]="setIcon(key)"></fa-icon>
+    </a>
+
+  </div>
+
+  <div class="cv__main bor">
+    <app-cv-body></app-cv-body>
+  </div>
+
+  <div class="cv__aside bor">
+    <app-cv-aside></app-cv-aside>
+  </div>
+
+</div>
