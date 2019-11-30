@@ -1,0 +1,14 @@
+<div class="item-list">
+
+  <div *ngFor="let repository of repositories" class="m-1">
+    <h1 [ngClass]="setHeadTheme('class', repository.language)">
+      <a mat-flat-button [href]="repository.html_url">{{short(repository.full_name)}}</a>
+      <fa-icon [icon]="setHeadTheme('icon' ,repository.language)"></fa-icon>
+    </h1>
+    <div>
+      <p>{{repository.description}}</p>
+    </div>
+
+  </div>
+
+</div>

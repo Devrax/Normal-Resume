@@ -1,0 +1,62 @@
+h1{
+  color: rgb(255, 255, 255);
+  margin-bottom: 0;
+  a{
+    font-family: inherit;
+    font-size: inherit;
+    margin-bottom: inherit;
+    color: #FBC02D;
+    text-shadow: 1px 1px 1px black;
+  }
+}
+
+p{
+  text-align: justify;
+  margin: 0;
+  font-size: 1.5em;
+  padding-left: 20px;
+}
+
+.blue{
+  color: darkblue;
+}
+
+.yellow{
+  color: rgb(255, 251, 0);
+}
+
+.orange{
+  color: darkorange;
+}
+
+.green{
+  color: green;
+}
+
+.red{
+  color: darkred;
+}
+
+.default{
+  color: inherit;
+}
+
+@media screen and (max-width: 480px) {
+  h1{
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    fa-icon{
+      font-size: 60px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  p{
+    padding: 0;
+  }
+
+  .m-1{
+    margin: 30px 0;
+  }
+}
