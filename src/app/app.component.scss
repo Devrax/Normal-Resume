@@ -1,0 +1,46 @@
+@media screen and (max-width: 480px) {
+  .head{
+    h1{
+      font-size: 2.5em;
+    }
+  }
+}
+
+.loader{
+  position: fixed;
+  background-color: #303030;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+  display: flex;
+  place-items: center;
+  place-content: center;
+  .angular{
+    color: red;
+    font-size: 40px;
+    background-color: white;
+    border-radius: 10px;
+  }
+}
+
+.content{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.head{
+  padding: 2.5em;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  h1{
+    color: #FBC02D;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-family: inherit;
+  }
+}
+
+
