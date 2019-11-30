@@ -10,7 +10,7 @@ I made this having in mind that someone else would like to have something simila
 
 ## You can use it, improve it, edit it according your desires, will and blah, blah...
 
-> ❗❗❗ There is a part that is hard code because is no using the github's api to be dinamyc and working in a way to optimize that part, suggestion are welcome 
+> ❗❗❗ There is a part that is hard code because is no using the github's api to be dinamyc, I'm working in a way to optimize that part, suggestion are welcome 
 
 That part is located inside components `./src/app/components/curriculum/cv-aside/cv-aside.component.ts`.
 
