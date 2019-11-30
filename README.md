@@ -64,5 +64,5 @@ export class MyGitService {
 
 Well, only the data that is inside `cv-aside.component.ts` is static, even the view is automatized, so, you only have to change the data that is inside an object called **asideData**, if you are wondering why is no-type, well, **Long Live to TypeScript's Type Inference**💕
 
-You will see a sample of the page in description.
+Here the example and also my "Resume": https://normal-resume.herokuapp.com/
 
