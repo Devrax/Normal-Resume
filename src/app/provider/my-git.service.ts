@@ -10,7 +10,7 @@ import {IUser, IRepo} from '../models/interfaces.types';
 })
 export class MyGitService {
   //the loading uses this boolean directly
-  private mainLoading = false;
+  public mainLoading = false;
   public counter = 0;
 
   private baseUrl = 'https://api.github.com';
