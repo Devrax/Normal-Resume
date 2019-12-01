@@ -52,7 +52,9 @@ export class MyGitService {
   stopLoading() {
     this.counter++;
     if(this.counter === 2) {
-      this.mainLoading = true;
+      setTimeout(() => {
+        this.mainLoading = true;
+      }, 1000);
     }
   }
 
