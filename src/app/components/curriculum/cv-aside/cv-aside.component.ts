@@ -11,21 +11,22 @@ export class CvAsideComponent implements OnInit {
 
   public asideData: any = [
     {
-      title: 'Aptitudes',
-      items: ['Autonomous', 'Creative', 'Proactive', 'self-taught person', 'Organized' ]
+      title: 'Languages',
+      items: ['English: B1 - Intermediate', 'Spanish: Native']
     },
     {
-      title: 'Languages',
-      items: ['Spanish: Native', 'English: B1 - Intermediate']
+      title: 'Aptitudes',
+      items: ['Creative', 'Autonomous', 'Proactive', 'Organized', 'Self-taught person']
     },
     {
       title: 'Programming',
       items: [
+      'C#: Notions',
+      'Java: Notions',
       'Javascript: Vue/Angular',
-      'C#: Notions', 'Java: Notions',
-      'Ruby: Entry level',
       'PHP: Don\'t hire me due to this...',
-      'Python: Entry level'
+      'Python: Entry level',
+      'Ruby: Entry level'
     ]
     }
   ];
